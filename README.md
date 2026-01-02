@@ -12,8 +12,6 @@ This application follows a **3‑tier architecture**:
 2. **Backend**: Python, Flask REST APIs
 3. **Database**: MySQL
 
----![Uploading homepage.png…]()
-
 
 ## Application Screenshots
 
