@@ -4,7 +4,7 @@ A **3‑tier Grocery Store Management System** built using **Python (Flask)**, *
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This application follows a **3‑tier architecture**:
 
@@ -12,13 +12,12 @@ This application follows a **3‑tier architecture**:
 2. **Backend**: Python, Flask REST APIs
 3. **Database**: MySQL
 
-It is designed as a beginner‑friendly full‑stack project suitable for MCA / BCA students.
+---![Uploading homepage.png…]()
 
----
 
-## 🖼️ Application Screenshots
+## Application Screenshots
 
-### 🏠 Home Page – Orders Dashboard
+### Home Page – Orders Dashboard
 
 Displays all placed orders with date, order number, customer name, and total cost.
 
@@ -26,7 +25,7 @@ Displays all placed orders with date, order number, customer name, and total cos
 
 ---
 
-### 📦 Manage Products Page
+### Manage Products Page
 
 Allows viewing, adding, and deleting grocery products along with unit and price per unit.
 
@@ -42,33 +41,9 @@ Used to create a new customer order by selecting products, quantities, and calcu
 
 ---
 
-## 📂 Project Structure
+##  Installation & Setup
 
-```
-python_projects_grocery_webapp
-│
-├── backend
-│   ├── server.py
-│   ├── products_dao.py
-│   ├── orders_dao.py
-│   ├── uom_dao.py
-│   └── sql_connection.py
-│
-├── ui
-│   ├── css
-│   ├── js
-│   ├── images
-│   ├── index.html
-│   └── manage-product.html
-│
-└── README.md
-```
-
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Install MySQL (Windows)
+###  Install MySQL (Windows)
 
 Download and install MySQL:
 [https://dev.mysql.com/downloads/installer/](https://dev.mysql.com/downloads/installer/)
@@ -81,7 +56,7 @@ grocery_store
 
 ---
 
-### 2️⃣ Install Python Dependencies
+###  Install Python Dependencies
 
 ```bash
 pip install flask
@@ -91,7 +66,7 @@ pip install flask-cors
 
 ---
 
-### 3️⃣ Configure Database Connection
+### Configure Database Connection
 
 Edit `sql_connection.py`:
 
@@ -106,7 +81,7 @@ mysql.connector.connect(
 
 ---
 
-### 4️⃣ Run the Application
+###  Run the Application
 
 ```bash
 python server.py
@@ -120,16 +95,16 @@ http://127.0.0.1:5500/ui/index.html
 
 ---
 
-## ✨ Features
+## Features
 
-### ✅ Products Module
+###  Products Module
 
 * View all products
 * Add new products
 * Delete products
 * Display unit of measurement (UOM)
 
-### ✅ Orders Module
+###  Orders Module
 
 * Create new orders
 * Add multiple products per order
@@ -138,34 +113,26 @@ http://127.0.0.1:5500/ui/index.html
 
 ---
 
-## 🧠 Future Enhancements (Exercises)
+##  Future Enhancements
 
 The system is functional, but the following improvements can be implemented:
 
-1. **Products Module**
-
-   * Add an **Edit Product** button next to Delete
-
-2. **UOM Module**
-
-   * Add a form to create new Units of Measurement (e.g., Cubic Meter for wood)
-
-3. **Orders Module – Validation**
+1. **Orders Module – Validation**
 
    * Validate customer name
    * Validate quantity and product selection (Frontend only)
 
-4. **Orders Module – Bug Fix**
+2. **Orders Module – Bug Fix**
 
    * Fix issue where manually changing item total does not update the grand total
 
-5. **Orders Module – View Order Details**
+3. **Orders Module – View Order Details**
 
    * Add a **View** button to show detailed order items
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 * Understanding of 3‑tier architecture
 * REST API development using Flask
@@ -178,7 +145,7 @@ The system is functional, but the following improvements can be implemented:
 ## 👩‍💻 Author
 
 **Riya Makwana**
-MCA (AI) Student
+
 
 ---
 
